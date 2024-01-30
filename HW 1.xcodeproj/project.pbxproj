@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		581C20202B689FAB006F2B49 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 581C201F2B689FAB006F2B49 /* main.cpp */; };
+		5836EF302B68A5650065FD03 /* pokemon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5836EF2F2B68A5650065FD03 /* pokemon.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		581C201C2B689FAB006F2B49 /* HW 1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HW 1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		581C201F2B689FAB006F2B49 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		581C20262B689FD5006F2B49 /* pokemon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pokemon.h; sourceTree = "<group>"; };
+		5836EF2F2B68A5650065FD03 /* pokemon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pokemon.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 		581C201E2B689FAB006F2B49 /* HW 1 */ = {
 			isa = PBXGroup;
 			children = (
+				5836EF2F2B68A5650065FD03 /* pokemon.cpp */,
+				581C20262B689FD5006F2B49 /* pokemon.h */,
 				581C201F2B689FAB006F2B49 /* main.cpp */,
 			);
 			path = "HW 1";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				581C20202B689FAB006F2B49 /* main.cpp in Sources */,
+				5836EF302B68A5650065FD03 /* pokemon.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
