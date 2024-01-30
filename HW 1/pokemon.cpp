@@ -1,3 +1,9 @@
+//***********************************************************************
+// Team #14 CSCI 2380 Spring 2024 Homework # 1
+// Ryan Ramirez
+// First and Last Name
+//
+//***********************************************************************
 #include "pokemon.h"
 #include <iostream>
 using namespace std;
