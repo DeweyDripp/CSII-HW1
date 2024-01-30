@@ -96,7 +96,7 @@ float Pokemon::damage_multiplier(Type attack_type) {
         }
     }
 
-    cout << "Test: " << name() << ".damage_multiplier(" << typeToStr(attack_type) << ") == " << multiplier << endl; //Used this to debug and see what Multipliers i was getting to see how to adjust the damage_multipliers
+    //cout << "Test: " << name() << ".damage_multiplier(" << typeToStr(attack_type) << ") == " << multiplier << endl; //Used this to debug and see what Multipliers i was getting to see how to adjust the damage_multipliers
 
 
     return multiplier;
